@@ -35,7 +35,7 @@ public class WebController {
 	@RequestMapping("/jsp")
 	public String jspPage(Model model) throws Exception{
 
-		model.addAttribute("name","hello springBoot1234");
+		model.addAttribute("name","hello springBoot12345");
 		model.addAttribute("sysdate",sampleService.sampleSysdate());
 
 		return "hello";

@@ -26,13 +26,13 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.apache.tomcat.embed:tomcat-embed-jasper')
 	compile('org.projectlombok:lombok')
-	compile('javax.servlet:jstl:1.2')
 
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
     // MyBatis
     compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2")
     // JPA
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    
 	runtime('org.hsqldb:hsqldb')
 	runtime('mysql:mysql-connector-java')
     

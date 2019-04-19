@@ -1,7 +1,14 @@
 HELP.md
 .gradle
+.gitignore
 /build/
 !gradle/wrapper/gradle-wrapper.jar
+/src/main/resources/static/static/
+/src/main/resources/static/index.html
+/bin/static/index.html
+/bin/static/static/
+/frontend/package.json
+/frontend/package-lock.json
 
 ### STS ###
 .apt_generated

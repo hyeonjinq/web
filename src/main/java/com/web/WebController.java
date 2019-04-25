@@ -10,12 +10,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.web.repository.SampleRepository;
 import com.web.service.SampleService;
 import com.web.vo.Sample;
 
-@Controller
+@RestController
 @RequestMapping("/member")
 public class WebController {
 	
@@ -26,7 +27,7 @@ public class WebController {
 	@Autowired
 	private SampleService sampleService;
 
-	@RequestMapping("/")
+	@RequestMapping("/home")
 	@ResponseBody
 	public String home(){
 		return "helloHome";
